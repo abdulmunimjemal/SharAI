@@ -78,9 +78,6 @@ SharAI will be released under an open-source license to encourage collaboration 
 ## <a id="acknowledgments"></a>Acknowledgments
 
 - **IslamQA.info**: For providing the dataset and serving as the foundation for SharAI’s knowledge base.
-- **OpenAI**: For the AI tools and frameworks that make this project possible.
-- **The Muslim Community**: For their support and feedback in building a tool that serves the Ummah.
-
 ---
 
 ## Contact
