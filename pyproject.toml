@@ -1,0 +1,22 @@
+[project]
+name = "sharai"
+version = "0.1.0"
+description = "SharAI (pronounced \"Shari'i\") is an AI-powered chatbot designed to provide accurate and reliable answers to questions about Islamic legislation (Sharia).Resources"
+authors = [
+    {name = "Abdulmunim",email = "66489217+abdulmunimjemal@users.noreply.github.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "requests (>=2.32.3,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+beautifulsoup4 = "^4.13.3"
+
