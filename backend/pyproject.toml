@@ -1,0 +1,18 @@
+[project]
+name = "sharai-backend"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Abdulmunim",email = "66489217+abdulmunimjemal@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "fastapi[standard] (>=0.115.11,<0.116.0)",
+    "pinecone[asyncio] (>=6.0.2,<7.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
