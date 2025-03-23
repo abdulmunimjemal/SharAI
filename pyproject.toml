@@ -19,4 +19,5 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.group.dev.dependencies]
 beautifulsoup4 = "^4.13.3"
+ipykernel = "^6.29.5"
 
