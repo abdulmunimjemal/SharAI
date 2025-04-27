@@ -1,0 +1,2 @@
+persist_directory: "db/chroma"
+collection_name: "islamqa"
