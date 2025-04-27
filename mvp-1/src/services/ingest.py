@@ -1,7 +1,7 @@
 import uuid, json
 from fastapi import UploadFile, HTTPException
 from src.schemas.rag_schema import EntryItem, IngestPayload
-from db import collection
+from src.database.db import collection
 from src.services.embeddings import embed_documents
 
 async def run_ingest_file(file: UploadFile):
